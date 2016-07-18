@@ -10,6 +10,10 @@ rm -r Web_site_apache/
 mv mysqli_connect_example.php ../mysqli_connect.php
 #Edita la passwd di mysqli_connect.php (che qui non e' specificata per ovvi motivi)
 
+#Soft_links:
+sudo ln -s /mnt/usb_drive/ usb_drive_soft_link
+sudo ln -s usb_drive_soft_link/Film,Musica,Libri,Partiture/Musica_totale/L/Lezioni_musica_radio3/ Lezioni_musica_radio3
+
 
 ```
 
