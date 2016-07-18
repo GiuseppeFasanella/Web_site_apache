@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <script type="text/javascript">
+          function playSound(el,soundfile) {
+              if (el.mp3) {
+                  if(el.mp3.paused) el.mp3.play();
+                  else el.mp3.pause();
+              } else {
+                  el.mp3 = new Audio(soundfile);
+                  el.mp3.play();
+              }
+          }
+      </script>
+  </head>
+<body>
+    <span id="dummy" onclick="playSound(this, 'http://usersif.ddns.net/test_play/kill.mp4');">
+      <img src="http://usersif.ddns.net/test_play/test.png" name="Bottom-1" width="115" height="45" border="0" id="Bottom-1"/>
+    </span>
+</body>
+</html>

@@ -1,0 +1,1 @@
+Ctrl+Shift+U e poi l'unicode, questo per scrivere le lettere greche (tipicamente)

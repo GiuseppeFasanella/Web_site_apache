@@ -1,0 +1,15 @@
+button.linkbox{
+  width : 150px ;
+  text-align : center ;
+  vertical-align : middle ;
+  font-size : 14pt ;
+  font-family : arial , sans-serif ;
+  height : 50px ;
+  margin : 10px ;
+  border-radius : 10px ;
+}
+div#div_links{
+  width : 90% ;
+  margin : auto ;
+  text-align : center ;
+}
