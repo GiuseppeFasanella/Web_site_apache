@@ -1,5 +1,19 @@
 # Website
 
+```
+sudo su
+cd /var/www
+git clone Website
+mv mysqli_connect_example.php ../mysqli_connect.php
+#Edita la passwd di mysqli_connect.php (che qui non e' specificata per ovvi motivi)
+
+
+```
+
+
+
+
+
 quando aggiungi un nuovo file, per visualizzarlo:
 
 ```
