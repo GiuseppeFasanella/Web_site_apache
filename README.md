@@ -6,6 +6,7 @@ cd /var/www
 git clone https://github.com/GiuseppeFasanella/Web_site_apache.git
 cd Web_site_apache/
 mv * ../
+cd ../
 rm -r Web_site_apache/
 mv mysqli_connect_example.php ../mysqli_connect.php
 #Edita la passwd di mysqli_connect.php (che qui non e' specificata per ovvi motivi)
