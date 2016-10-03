@@ -9,13 +9,13 @@
 if (isset($_POST['LightON']))
 {
 echo "<p>Light On </p>";
-exec('sudo /home/pi/lighton.py2>&1', $output);
+exec('sudo /var/www/html/light_project/lighton.py2>&1', $output);
 print_r($output);
 }
 if (isset($_POST['LightOFF']))
 {
 echo "<p>Light Off </p>";
-exec("sudo /home/pi/lightoff.py");
+exec("sudo /var/www/html/light_project/lightoff.py");
 }
 ?>
 
