@@ -9,7 +9,8 @@
 if (isset($_POST['LightON']))
 {
 echo "<p>Light On </p>";
-exec("sudo /home/pi/lighton.py");
+exec('sudo /home/pi/lighton.py2>&1', $output);
+print_r($output);
 }
 if (isset($_POST['LightOFF']))
 {
