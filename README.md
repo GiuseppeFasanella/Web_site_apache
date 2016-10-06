@@ -10,6 +10,7 @@ cd ../
 rm -r Web_site_apache/
 mv mysqli_connect_example.php ../mysqli_connect.php
 #Edita la passwd di mysqli_connect.php (che qui non e' specificata per ovvi motivi)
+#Ho messo una versione funzionante di mysqli_connect su google drive
 
 #Soft_links:
 sudo ln -s /mnt/usb_drive/ usb_drive_soft_link
